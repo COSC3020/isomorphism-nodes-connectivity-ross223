@@ -21,7 +21,7 @@ By the definition of completely connected each node in A is connected to each
 other, and each node in B is connected similarly.
 
 This means that there is a bijection between A and B as for each node in A,
-there is a node in B that is connected to the same number of nodes.
+there is a node in B that is connected to the same number and type of nodes.
 
 A relationship cannot be both a bijection and not a bijection as this is a
 contradition.
