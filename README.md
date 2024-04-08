@@ -14,14 +14,17 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 Proof by contradiction:
 
 Assume that two completely connected grpahs A and B, with the same number of nodes, 
-are not isomorphic. This means that there exists an edge from some nodes n_0 to n_1
-in A such that the same nodes n_0 and n_1 in B do not have an edge.
+are not isomorphic. This means that there is not a bijection between the nodes of
+A and B such that each node is still connected to every other, by the definition.
 
-This means that the graph is not completely connected as it does not have edges between
-all nodes in the graph.
+By the definition of completely connected each node in A is connected to each
+other, and each node in B is connected similarly.
 
-A graph cannot be both completely connected and not completely connected at the same 
-time, as this is a contradiction.
+This means that there is a bijection between A and B as for each node in A,
+there is a node in B that is connected to the same number of nodes.
+
+A relationship cannot be both a bijection and not a bijection as this is a
+contradition.
 
 Therefore, if a graph is completely connected with the same number of nodes,
 it has to be isomorphic by contradiction.
