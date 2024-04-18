@@ -20,8 +20,18 @@ A and B such that each node is still connected to every other, by the definition
 By the definition of completely connected each node in A is connected to each
 other, and each node in B is connected similarly.
 
-This means that there is a bijection between A and B as for each node in A,
-there is a node in B that is connected to the same number and type of nodes.
+Since each node in A is connected to each other node, this means that each
+node has n-1 edges as there are n nodes in the graph. This is the same for 
+each node in B. This means that each node in A can be equated to exactly one 
+node in B as every node has the same number of edges. Therefore, there is
+a one-to-one function from A to B by the definition of one-to-one.
+
+Since there is the same number of nodes in each graph, and each node is
+mapped to exactly one other node, there is an onto function from A to B by 
+the definition of onto.
+
+This means that there is a bijection between A and B as the graphs are both
+onto and one-to-one.
 
 A relationship cannot be both a bijection and not a bijection as this is a
 contradition.
