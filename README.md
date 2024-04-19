@@ -20,11 +20,15 @@ A and B such that each node is still connected to every other, by the definition
 By the definition of completely connected each node in A is connected to each
 other, and each node in B is connected similarly.
 
-Since each node in A is connected to each other node, this means that each
-node has n-1 edges as there are n nodes in the graph. This is the same for 
-each node in B. This means that each node in A can be equated to exactly one 
-node in B as every node has the same number of edges. Therefore, there is
-a one-to-one function from A to B by the definition of one-to-one.
+Since each node in A is connected to each other node, this means that there are
+n nodes each with n-1 edges in the graph. This is the same for graph B which also 
+has n nodes each with n-1 edges.
+
+Therefore, every node in both graphs have the same number of edges. 
+This means that any node can be mapped to any other node because every node 
+is identical in terms of number of edges. Since there are exactly n nodes
+in each graph, there must exist a function such that each node is mapped to
+exactly one other node which is the definition of one-to-one.
 
 Since there is the same number of nodes in each graph, and each node is
 mapped to exactly one other node, there is an onto function from A to B by 
