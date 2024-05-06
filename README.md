@@ -42,3 +42,7 @@ contradition.
 
 Therefore, if a graph is completely connected with the same number of nodes,
 it has to be isomorphic by contradiction.
+
+## Sources
+
+Once again Assel Aljazwe was helpful with proof by contradition structure
